@@ -69,7 +69,7 @@ cargo test
 
 - [ ] Rewrite the parser and compiler to handle all mustache cases
 
-- [ ] Rebuild API surface to have only the Render trait, render() and render_file()
+- [ ] Rebuild API surface to have only the Render trait, `render_text` and `render_file`
 
 	 - [ ] impl Render for HashBuilder, Json, etc.
 
